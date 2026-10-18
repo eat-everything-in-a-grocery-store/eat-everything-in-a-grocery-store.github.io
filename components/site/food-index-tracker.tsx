@@ -13,7 +13,7 @@ export function FoodIndexTracker(){
  const [loaded,setLoaded]=useState(false);
  const [query,setQuery]=useState("");
  const [filter,setFilter]=useState("All");
- useEffect(()=>{try{const value=JSON.parse(localStorage.getItem(key)||"[]");if(Array.isArray(value))setChecked(value.filter((v):v is string=>typeof v==="string"&&items.some(item=>item.name===v)));}catch{}setLoaded(true);},[]);
+ useEffect(()=>{const frame=window.requestAnimationFrame(()=>{try{const value=JSON.parse(localStorage.getItem(key)||"[]");if(Array.isArray(value))setChecked(value.filter((v):v is string=>typeof v==="string"&&items.some(item=>item.name===v)));}catch{}setLoaded(true);});return()=>window.cancelAnimationFrame(frame);},[]);
  useEffect(()=>{if(loaded){try{localStorage.setItem(key,JSON.stringify(checked));}catch{}}},[checked,loaded]);
  const visible=items.filter(item=>(filter==="All"||item.category===filter)&&item.name.toLowerCase().includes(query.trim().toLowerCase()));
  function toggle(name:string){setChecked(prev=>prev.includes(name)?prev.filter(x=>x!==name):[...prev,name]);}
