@@ -1,0 +1,30 @@
+{
+  "enabled": true,
+  "slug": "",
+  "pageType": "home",
+  "title": "Eat Everything In A Grocery Store Guide",
+  "description": "Guides, walkthroughs, tips, updates, and reference information for Eat Everything In A Grocery Store.",
+  "navVisible": true,
+  "hero": {
+    "eyebrow": "Game guide",
+    "heading": "Eat Everything In A Grocery Store",
+    "lead": "Guides, walkthroughs, tips, updates, and reference information for Eat Everything In A Grocery Store.",
+    "supportingText": "Browse current game information and practical guides.",
+    "secondaryLink": {
+      "label": "Open official game page",
+      "url": "https://www.roblox.com/games/128201586883489"
+    }
+  },
+  "sections": [
+    {
+      "id": "start-here",
+      "heading": "Game information",
+      "paragraphs": [
+        "Current Eat Everything In A Grocery Store guides and reference information will be published here."
+      ]
+    }
+  ],
+  "faq": [],
+  "screenshots": [],
+  "lastReviewed": "2026-10-18"
+}
