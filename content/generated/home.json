@@ -2,29 +2,169 @@
   "enabled": true,
   "slug": "",
   "pageType": "home",
-  "title": "Eat Everything In A Grocery Store Guide",
-  "description": "Guides, walkthroughs, tips, updates, and reference information for Eat Everything In A Grocery Store.",
   "navVisible": true,
+  "title": "Eat Everything In A Grocery Store Roblox Wiki & Guide",
+  "description": "Eat Everything In A Grocery Store Roblox guide: explore the 175-food goal, gym upgrades, Food Index and store-clear tips. Open the official game.",
   "hero": {
-    "eyebrow": "Game guide",
-    "heading": "Eat Everything In A Grocery Store",
-    "lead": "Guides, walkthroughs, tips, updates, and reference information for Eat Everything In A Grocery Store.",
-    "supportingText": "Browse current game information and practical guides.",
+    "eyebrow": "Independent Roblox player guide · official mechanics checked 18 Oct 2026",
+    "heading": "Eat Everything In A Grocery Store Roblox Wiki",
+    "lead": "Eat Everything In A Grocery Store is a Roblox adventure by Play On Grocery Store. The challenge: eat through a store with 175 Food Index entries and 4,300,000 calories, train at the gym, and aim for a full clear.",
+    "supportingText": "Play through Roblox, compare five gym upgrades, track developer-named food and prepare for solo or party runs. Fan-made guide, not the developer.",
+    "primaryLink": {
+      "slug": "upgrades",
+      "label": "Compare Gym Upgrades"
+    },
     "secondaryLink": {
-      "label": "Open official game page",
-      "url": "https://www.roblox.com/games/128201586883489"
+      "label": "Play on Roblox",
+      "url": "https://www.roblox.com/games/128201586883489/Eat-Everything-In-A-Grocery-Store"
     }
   },
   "sections": [
     {
-      "id": "start-here",
-      "heading": "Game information",
+      "id": "about",
+      "heading": "What Is Eat Everything In A Grocery Store on Roblox?",
       "paragraphs": [
-        "Current Eat Everything In A Grocery Store guides and reference information will be published here."
+        "Eat Everything In A Grocery Store is an adventure experience published by Play On Grocery Store on Roblox. The official experience is at Roblox Place ID 128201586883489. This site is an independently written reference, not an official game, an emulator, or a promise that you can launch Roblox inside this webpage.",
+        "The premise is a locked grocery store packed with edible objects. According to the developer, the whole store contains 4,300,000 calories and the Food Index covers 175 foods. Those figures describe the game's advertised challenge and collection target; they are not a verified list of 175 item names, a single player's current progress, or a live total.",
+        "Start from the official Roblox experience rather than similarly titled real-world eating challenges or videos. The publisher names apples, Choco Puffs, Bloxy Cola, stockroom pallets and a Mega Watermelon in its description, alongside the hidden Golden Banana. Our guides separate these documented facts from strategies that still need in-game timing or screenshots."
+      ],
+      "subsections": [
+        {
+          "heading": "Official Game and Developer",
+          "paragraphs": [
+            "Game: Eat Everything In A Grocery Store. Platform: Roblox. Publisher shown on the official page: Play On Grocery Store. Place ID: 128201586883489. Use the Play on Roblox link at the top of this page to reach the exact experience rather than relying on an unofficial embed."
+          ]
+        },
+        {
+          "heading": "The 175-Food, 4.3M-Calorie Goal",
+          "paragraphs": [
+            "The developer states that there are 175 foods to taste and 4,300,000 calories in the store. A Food Index collection goal and a full-store clear are separately described features; whether they share identical completion conditions cannot be established without a recorded run."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gameplay",
+      "heading": "How the Store Challenge Works",
+      "paragraphs": [
+        "The official gameplay loop is easy to identify: aim at food, click to eat it, build up calories and spend those calories at the in-store gym. The game's description says food breaks apart bite by bite, so large targets are not necessarily removed with a single interaction.",
+        "Calories are also an upgrade resource. Rather than asserting an untested order of purchases, compare the five named gym options with the actual problem slowing your current run. Players looking for exact prices or level effects should rely on observed in-game information; no official numerical cost chart has been published in the source we checked.",
+        "Solo players can attempt the challenge, and friends can create a party in the lobby. The game lists leaderboards for calories eaten and fastest store cleared. Its server capacity was listed as 12 at source review, but that does not establish party-size restrictions or an automatic reward share for any particular number of friends."
+      ],
+      "subsections": [
+        {
+          "heading": "Eat Food to Gain Calories",
+          "paragraphs": [
+            "The publisher explicitly names apples, Choco Puffs, Bloxy Cola and the 150,000-calorie Mega Watermelon. The official text also mentions food on stockroom pallets, but it does not provide a complete placement map or say that every pallet is a distinct Food Index entry."
+          ]
+        },
+        {
+          "heading": "Spend Calories at the In-Store Gym",
+          "paragraphs": [
+            "The five named upgrades are Hold to Eat, Speed, Multi Eat, Calories and Reach. The official description states that Multi Eat goes up to ×12, without defining in that description exactly what is multiplied. Our upgrade guide explains a cautious way to compare their in-game effects before assigning a best build."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "guide-directory",
+      "heading": "Choose Your Next Guide",
+      "paragraphs": [
+        "Each first-release guide has a separate player task. Use the upgrades page when your question is about spending calories; use the Food Index when you want to identify documented foods and mark what you have found; use the clear guide when you are trying to finish a run without losing track of remaining sections.",
+        "The site intentionally has three focused guide pages rather than duplicating a single generic walkthrough across dozens of URLs. Its navigation, footer and contextual cards all point to those same approved destinations. This keeps each query tied to a page with a specific answer."
+      ],
+      "links": [
+        {
+          "slug": "upgrades",
+          "label": "Gym upgrade comparison",
+          "description": "Find the five developer-confirmed upgrade tracks, a decision worksheet for your bottleneck, and an honest record of which price and effect fields still need player screenshots."
+        },
+        {
+          "slug": "food-index",
+          "label": "Verified-name Food Index",
+          "description": "Search the five food or hidden-object names explicitly mentioned in the official description, mark your own finds in this browser and distinguish them from the 175-item target."
+        },
+        {
+          "slug": "fast-clear-guide",
+          "label": "Store-clear planning checklist",
+          "description": "Follow a repeatable section checklist for solo or party attempts, set upgrade checkpoints, record a finishing result and avoid claims about routes that have not been time-tested."
+        }
+      ]
+    },
+    {
+      "id": "food-index-overview",
+      "heading": "Food Index and Hidden Golden Banana",
+      "paragraphs": [
+        "The official description challenges players to taste all 175 foods and also asks whether they can find a hidden Golden Banana. The Golden Banana is therefore a real, developer-mentioned objective. However, the source does not reveal its map coordinates, spawn conditions or reward, and this guide will not invent a hidden-location clue.",
+        "Our Food Index page is intentionally a verified-name starter catalog, not a counterfeit list of 175 entries. It shows where each item name came from and clearly marks whether it has been independently seen in the game's Food Index interface. This is more actionable than presenting unnamed categories as if they were all the individual foods."
+      ],
+      "subsections": [
+        {
+          "heading": "Known Foods Named by the Developer",
+          "paragraphs": [
+            "Apples, Choco Puffs, Bloxy Cola, Mega Watermelon and Golden Banana are named in the public Roblox description. Only the Mega Watermelon has a developer-stated individual calorie value in that text: 150,000. The Golden Banana is called hidden; its actual location has not been verified."
+          ]
+        },
+        {
+          "heading": "What We Do Not Know Yet",
+          "paragraphs": [
+            "No screenshot-backed full 175-item index, reliable food-specific zone list, Golden Banana directions, food spawn table or precise item count by store section was available in the official description. These are explicitly not supplied as confirmed game facts."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "playing-together",
+      "heading": "Solo Play, Parties and Leaderboards",
+      "paragraphs": [
+        "The Roblox experience allows solo play and invites friends to start a party in the lobby. For a solo attempt, tracking which zones have already been searched can reduce your own repeated checking. For a party, agreeing which player will inspect each zone is a practical coordination method, not a hidden game mechanic.",
+        "The developer advertises a $1,000,000 prize for emptying the store and splitting it with your team. That amount is described as in-game cash, not a real-money contest or payment. Because the public description does not spell out every prize condition, do not assume that collecting all Food Index entries, finding the Golden Banana and receiving the clear prize are exactly the same trigger.",
+        "Two announced leaderboards measure calories eaten and fastest store cleared. We do not post invented times, player rankings or a 'world record.' Our run-planning page instead tells you what to note during an actual clear so future advice can be backed by evidence."
+      ],
+      "links": [
+        {
+          "slug": "fast-clear-guide",
+          "label": "How to beat the store",
+          "description": "A concise checklist for first attempts, solo and party coordination, upgrade review and finish-state verification."
+        }
+      ]
+    },
+    {
+      "id": "sources",
+      "heading": "Sources, Updates and Community Notes",
+      "paragraphs": [
+        "Primary factual source: the developer's Roblox experience description, checked on 18 October 2026. Figures for total calories, Food Index target and the named gym upgrades come from that page. This site does not have access to private developer data or live game internals.",
+        "A guide can age quickly after a game update. Before relying on specific counts or advice, compare it with the current official experience. The site's review date describes editorial fact checking, not a claim that every listed tactic has been validated in live gameplay.",
+        "Corrections should be based on a readable in-game screenshot or recording that includes the relevant interface and date. Screenshots are not currently used as evidence for locations, upgrade prices or item-to-index mappings here. Game guides and fan resources should not be mistaken for the developer's own instructions."
       ]
     }
   ],
-  "faq": [],
+  "faq": [
+    {
+      "question": "Is Eat Everything In A Grocery Store a Roblox game?",
+      "answer": "Yes. Play On Grocery Store is the developer name shown on the official Roblox page at Place ID 128201586883489."
+    },
+    {
+      "question": "How many foods are in Eat Everything In A Grocery Store?",
+      "answer": "The official description says the Food Index contains 175 foods. This website does not claim to have verified all 175 individual names."
+    },
+    {
+      "question": "What gym upgrades are available?",
+      "answer": "The developer lists Hold to Eat, Speed, Multi Eat, Calories and Reach. Exact upgrade prices and level effects need in-game verification."
+    },
+    {
+      "question": "Can you play with friends?",
+      "answer": "Yes. The developer advertises parties created in the lobby. Server capacity and party composition are different things."
+    },
+    {
+      "question": "Is the million-dollar prize real money?",
+      "answer": "No. The developer explicitly describes the $1,000,000 reward as in-game cash."
+    },
+    {
+      "question": "Where is the Golden Banana?",
+      "answer": "The official game description confirms that a hidden Golden Banana exists, but does not give its location. We do not have a verified location to publish."
+    }
+  ],
   "screenshots": [],
   "lastReviewed": "2026-10-18"
 }

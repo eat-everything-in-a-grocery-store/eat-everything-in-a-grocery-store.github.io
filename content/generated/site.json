@@ -1,8 +1,8 @@
 {
-  "readyForLaunch": false,
+  "readyForLaunch": true,
   "siteName": "Eat Everything In A Grocery Store Guide",
   "shortName": "Eat Everything In A Grocery Store",
-  "description": "Eat Everything In A Grocery Store guides, walkthroughs, tips, updates, and reference information.",
+  "description": "Independent Eat Everything In A Grocery Store Roblox guide covering the five gym upgrades, verified Food Index names and store-clear planning.",
   "language": "en",
   "locale": "en_US",
   "authorName": "Editorial Team",
@@ -38,7 +38,7 @@
     "fontId": "source-sans"
   },
   "hosting": {
-    "siteUrl": "http://eat-everything-in-a-grocery-store.github.io",
+    "siteUrl": "https://eat-everything-in-a-grocery-store.github.io",
     "basePath": "",
     "customDomain": null
   },
@@ -54,11 +54,11 @@
   "game": {
     "name": "Eat Everything In A Grocery Store",
     "platform": "Roblox",
-    "developer": "",
-    "genre": "",
-    "officialUrl": "https://www.roblox.com/games/128201586883489"
+    "developer": "Play On Grocery Store",
+    "genre": "Adventure",
+    "officialUrl": "https://www.roblox.com/games/128201586883489/Eat-Everything-In-A-Grocery-Store"
   },
   "seo": {
-    "titleTemplate": "%s | Eat Everything In A Grocery Store Guide"
+    "titleTemplate": "%s"
   }
 }

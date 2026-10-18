@@ -1,1 +1,739 @@
-[]
+[
+  {
+    "enabled": true,
+    "slug": "upgrades",
+    "pageType": "guide",
+    "navLabel": "Upgrades",
+    "navVisible": true,
+    "title": "Eat Everything In A Grocery Store Upgrades Guide",
+    "description": "Compare Hold to Eat, Speed, Multi Eat, Calories and Reach in Eat Everything In A Grocery Store. Learn their roles and choose upgrades for your run.",
+    "hero": {
+      "eyebrow": "Five official gym tracks · effects and costs require in-game confirmation",
+      "heading": "Eat Everything In A Grocery Store Upgrades",
+      "lead": "The game lists five gym upgrades: Hold to Eat, Speed, Multi Eat, Calories and Reach. Which should you test next? Match the track to your bottleneck rather than trusting an unverified fixed tier list."
+    },
+    "sections": [
+      {
+        "id": "five-upgrades",
+        "heading": "All Five Gym Upgrades Explained",
+        "paragraphs": [
+          "The developer confirms five names on the public Roblox experience page. The same description confirms that calories can be spent at an in-store gym, but does not publish levels, prices, precise stat increases or a per-upgrade control guide. The following comparison keeps the verified names separate from interpretations of their likely roles.",
+          "The official description presents Multi Eat as 'up to x12.' It does not explain whether that number applies to simultaneous items, eating actions, speed or some other variable. Treat it as an advertised cap, not a verified ×12 calorie multiplier.",
+          "When comparing different games or fan guides, check that their upgrade descriptions refer to this exact Roblox place. Similar eating simulators may use familiar track names but different costs, controls and progression curves."
+        ],
+        "table": {
+          "caption": "Gym upgrade name and evidence-status comparison (Roblox description, 18 Oct 2026)",
+          "columns": [
+            "Upgrade",
+            "Officially named",
+            "Player question to test",
+            "Exact in-game effect"
+          ],
+          "rows": [
+            [
+              "Hold to Eat",
+              "Yes",
+              "Does holding input replace repeated clicks?",
+              "Not verified"
+            ],
+            [
+              "Speed",
+              "Yes",
+              "Does travel time change on the same route?",
+              "Not verified"
+            ],
+            [
+              "Multi Eat",
+              "Yes; up to ×12 is advertised",
+              "What exactly is multiplied?",
+              "Not verified"
+            ],
+            [
+              "Calories",
+              "Yes",
+              "Does a matching food give more calorie credit?",
+              "Not verified"
+            ],
+            [
+              "Reach",
+              "Yes",
+              "Can the same item be reached from farther away?",
+              "Not verified"
+            ]
+          ]
+        },
+        "subsections": [
+          {
+            "heading": "Hold to Eat",
+            "paragraphs": [
+              "Hold to Eat is an official track name. To verify its behavior, try the same edible target with repeated clicks and a held input, and record the game's actual response. Do not assume it eliminates all interaction or automatically processes nearby objects."
+            ]
+          },
+          {
+            "heading": "Speed",
+            "paragraphs": [
+              "For a meaningful comparison, time the same origin-to-destination movement before and after a Speed upgrade. A change in server lag, player route or character state can make anecdotal comparisons unreliable."
+            ]
+          },
+          {
+            "heading": "Multi Eat (Up to ×12)",
+            "paragraphs": [
+              "The ×12 statement comes from the developer, but what it multiplies is unspecified. Compare the number of targets affected per action, visible progress and calorie readout on one controlled test, then document the observed result."
+            ]
+          },
+          {
+            "heading": "Calories and Reach",
+            "paragraphs": [
+              "Both appear as named gym tracks. Use identical targets to investigate Calories and the same standing position to investigate Reach. No upgrade cost or distance value is confirmed by the text we examined."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "choose-next",
+        "heading": "How to Choose Your Next Upgrade",
+        "paragraphs": [
+          "A useful upgrade choice starts with diagnosis. Watch a short stretch of your own run and ask where you actually lose time. If you spend most of the interval walking between targets, prioritize testing movement-related improvements. If interactions dominate, compare input and multi-target behavior. If the next purchase is repeatedly delayed by a resource shortage, inspect the Calories track.",
+          "This is a decision framework, not a proven ranking of upgrades. A newcomer with crowded shelves and a coordinated party can face a different bottleneck from someone making a solo cleanup pass. An upgrade that solves one problem might do little in the next phase.",
+          "Before spending scarce calories, inspect the gym's current displayed purchase cost and available level. A purported best build with no source for those values cannot tell you whether the next purchase pays off in your own run."
+        ],
+        "subsections": [
+          {
+            "heading": "Too Much Travel Time?",
+            "paragraphs": [
+              "Map one short repeatable path between two known points. Note whether you are walking empty-handed for most of that route. Test Speed and, where the game allows you to do so, compare how far you must approach a food item before it can be eaten."
+            ]
+          },
+          {
+            "heading": "Eating Actions Take Too Long?",
+            "paragraphs": [
+              "Pick the same food type before and after a purchase, count input actions and measure the interval needed to finish it. Hold to Eat and Multi Eat are reasonable tracks to investigate, but the exact implementation needs observed evidence."
+            ]
+          },
+          {
+            "heading": "Need More Calories for Progression?",
+            "paragraphs": [
+              "Write down your current calorie value, consume a comparable item and record the change. Then repeat after testing the Calories track. Do not confuse the store's advertised total calories with a player's earnings or assume an undocumented multiplication formula."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "costs",
+        "heading": "Upgrade Costs and Levels: Verified Data",
+        "paragraphs": [
+          "The official Roblox description names the tracks but does not publish a numeric price or level chart. Until a screenshot-backed record is available, no cost here is treated as zero. The empty values are genuinely unknown, not free upgrades.",
+          "To contribute a usable record, capture the gym screen before a purchase with the track name, displayed level and calorie price readable. Immediately after buying, capture the changed level, remaining balance and a repeatable test. Attach the game version or date. That evidence would allow a future upgrade table to be updated without guessing."
+        ],
+        "table": {
+          "caption": "Data the guide can verify once captured in-game",
+          "columns": [
+            "Track",
+            "Current level",
+            "Cost (calories)",
+            "Measured improvement",
+            "Evidence"
+          ],
+          "rows": [
+            [
+              "Hold to Eat",
+              "Not verified",
+              "Not verified",
+              "Not verified",
+              "No gameplay capture"
+            ],
+            [
+              "Speed",
+              "Not verified",
+              "Not verified",
+              "Not verified",
+              "No gameplay capture"
+            ],
+            [
+              "Multi Eat",
+              "Not verified",
+              "Not verified",
+              "Not verified",
+              "No gameplay capture"
+            ],
+            [
+              "Calories",
+              "Not verified",
+              "Not verified",
+              "Not verified",
+              "No gameplay capture"
+            ],
+            [
+              "Reach",
+              "Not verified",
+              "Not verified",
+              "Not verified",
+              "No gameplay capture"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "solo-team",
+        "heading": "Solo vs Team Upgrade Tradeoffs",
+        "paragraphs": [
+          "A solo attempt puts every movement and eating decision on one player. Start by identifying the task that repeatedly interrupts your momentum, then compare the cost of improving it against simply clearing nearby food. Think in terms of observed seconds saved, not a community tier chart with missing data.",
+          "In party play, teammates may focus on separate store sections to avoid visiting the same spot repeatedly. That division of labor is an editorial coordination idea; the official page confirms parties, not a specific optimal number of members or a special bonus from following a prescribed role sheet.",
+          "Do not assume that another player's upgrade levels or gym purchases apply to the whole party. Such a sharing mechanic has not been established by our primary source. Verify it in the live game before planning a team strategy around it."
+        ],
+        "subsections": [
+          {
+            "heading": "Solo Run Decisions",
+            "paragraphs": [
+              "Record your player count as one, the same travel segment, what you paid at the gym and whether the measured action or travel time improved. An upgrade order should follow actual bottleneck changes between phases."
+            ]
+          },
+          {
+            "heading": "Co-op Route Decisions",
+            "paragraphs": [
+              "Agree on test responsibilities before a party attempt: one person observes travel, one tracks resource growth and another checks for overlap between assigned areas. Compare actual results rather than declaring a universal team upgrade order."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "test-log",
+        "heading": "Upgrade Test Log and Method",
+        "paragraphs": [
+          "Start with a known baseline: same food type, same standing location or travel segment, same device and similar connection conditions. Save the track name, level and visible cost from the game interface. Record a short clip of the action before a purchase.",
+          "Buy one upgrade, not multiple upgrades at once, then repeat the same action. Try at least two comparable runs and note any inconsistent result. Comparing multiple changes together makes it impossible to attribute improvements confidently.",
+          "Our current published results contain no independent gameplay measurements. Consequently, this page reports the developer's verified track names and a reproducible test protocol, not speculative statistics disguised as measured optimization advice."
+        ],
+        "steps": [
+          {
+            "heading": "Capture the baseline",
+            "description": "Record the same movement segment or eating action, visible current level and calorie balance."
+          },
+          {
+            "heading": "Change a single upgrade",
+            "description": "Save the gym's displayed purchase cost and upgraded level; avoid buying unrelated upgrades in the same test."
+          },
+          {
+            "heading": "Repeat and compare",
+            "description": "Measure the same action twice, note lag or changed conditions and keep only clearly supported conclusions."
+          }
+        ]
+      },
+      {
+        "id": "full-clear",
+        "heading": "When Upgrades Matter for a Full Store Clear",
+        "paragraphs": [
+          "A gym trip is useful when the purchase removes more future friction than the extra stop costs you. That break-even point depends on the real map, your chosen path, the number of targets left and actual gym prices. None of those quantities is verified here, so we cannot honestly prescribe a fixed minute for returning to the gym.",
+          "Use the store-clear planning checklist to mark which sections you have visited, then reconsider upgrades when moving into a different kind of task. For food identification rather than raw speed, consult the Food Index; it distinguishes official names from unknown spawn locations and offers a personal checklist.",
+          "The strongest advantage over generic upgrade tables is an explicit separation between what the developer confirms, what a player can test and what remains unknown. Refer to the official Roblox experience for the source names and check later versions before relying on any newly observed values."
+        ],
+        "links": [
+          {
+            "slug": "fast-clear-guide",
+            "label": "Plan a store clear",
+            "description": "Use upgrade checkpoints inside a solo or party section checklist."
+          },
+          {
+            "slug": "food-index",
+            "label": "Browse the Food Index",
+            "description": "Check developer-named foods without inventing an all-items list."
+          }
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "What are the five gym upgrades?",
+        "answer": "Hold to Eat, Speed, Multi Eat, Calories and Reach are all named on the official Roblox experience page."
+      },
+      {
+        "question": "Which upgrade should I buy first?",
+        "answer": "No universal first purchase has been verified. Inspect your current cost and test whether movement, input, target capacity or calorie generation is the main bottleneck."
+      },
+      {
+        "question": "Does Multi Eat give 12 times more calories?",
+        "answer": "The official description says Multi Eat reaches up to ×12, but does not define the multiplier. It must not be assumed to mean ×12 calorie earnings."
+      },
+      {
+        "question": "What do the gym upgrades cost?",
+        "answer": "The public game description does not include numeric costs. Exact prices and levels must be read from the current game interface."
+      }
+    ],
+    "relatedSlugs": [
+      "fast-clear-guide",
+      "food-index"
+    ],
+    "screenshots": [],
+    "lastReviewed": "2026-10-18"
+  },
+  {
+    "enabled": true,
+    "slug": "food-index",
+    "pageType": "database",
+    "navLabel": "Food Index",
+    "navVisible": true,
+    "title": "Eat Everything In A Grocery Store Food List & Index",
+    "description": "Explore the Eat Everything In A Grocery Store Food Index: the 175-food goal, confirmed items, store sections and an easy tracking checklist.",
+    "hero": {
+      "eyebrow": "Five developer-named targets · browser checklist",
+      "heading": "Eat Everything In A Grocery Store Food List",
+      "lead": "The official game lists 175 foods to discover. This Food Index separates developer-named items from entries verified in play, so you can search and mark real names instead of browsing invented locations."
+    },
+    "sections": [
+      {
+        "id": "what-is-index",
+        "heading": "What the 175-Food Index Means",
+        "paragraphs": [
+          "The developer says that tasting all 175 foods completes the game's Food Index collection. The public Roblox description does not expose a complete searchable 175-name list. As a result, our catalog currently displays five distinct named targets from the developer's own description; it is not labeled as a complete index.",
+          "There is an important evidence distinction: being mentioned in a developer's public description is not the same as seeing an entry recorded on an actual Food Index screen. We mark these names as developer-confirmed and leave their in-game index entry status unverified until a legible game capture confirms it.",
+          "This distinction matters because the game also advertises the objective of emptying the store. The same source mentions food among shelves and stockroom pallets, large targets and a hidden item, but gives no mapping of individual indexed entries to positions or clear-condition logic."
+        ],
+        "subsections": [
+          {
+            "heading": "Official Source vs Verified In-Game Entries",
+            "paragraphs": [
+              "Officially named means the item appears in the Roblox developer description checked on 18 October 2026. Verified in-game would require a screenshot showing that exact name in the current Food Index interface. None of the five has yet been independently verified against the interface in our evidence set."
+            ]
+          },
+          {
+            "heading": "Why 175 Is Not a List of 175 Names",
+            "paragraphs": [
+              "A collection target is a numeric feature. It does not authorize publishing a fabricated food list. We show exactly what our source supports, and the interactive checklist deliberately counts only those real names."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "confirmed-names",
+        "heading": "Confirmed Food Names",
+        "paragraphs": [
+          "Apples, Choco Puffs, Bloxy Cola and Mega Watermelon are examples named in the game's official eating description. Golden Banana is separately named as a hidden collection challenge. All five appear in the searchable tool above, where your check marks are your own browsing notes.",
+          "Mega Watermelon is the only one of these names for which the public description gives an exact item calorie number: 150,000. We do not infer calories for any other food or transform the total store calorie figure into a per-item value.",
+          "Stockroom pallets are also mentioned, but they are an environment or collection context, not proof of an index item literally named 'Stockroom Pallet.' They are not counted as a sixth verified food. Likewise, no fruit, candy or drink omitted from the developer's text has been invented to fill a target count."
+        ],
+        "table": {
+          "caption": "Publicly named targets; no in-game Food Index screenshots yet",
+          "columns": [
+            "Name",
+            "Developer mentions it",
+            "Index UI verified",
+            "Calorie value",
+            "Known precise location"
+          ],
+          "rows": [
+            [
+              "Apples",
+              "Yes",
+              "No screenshot",
+              "Not stated",
+              "Unknown"
+            ],
+            [
+              "Choco Puffs",
+              "Yes",
+              "No screenshot",
+              "Not stated",
+              "Unknown"
+            ],
+            [
+              "Bloxy Cola",
+              "Yes",
+              "No screenshot",
+              "Not stated",
+              "Unknown"
+            ],
+            [
+              "Mega Watermelon",
+              "Yes",
+              "No screenshot",
+              "150,000 (official)",
+              "Unknown"
+            ],
+            [
+              "Golden Banana",
+              "Yes, hidden",
+              "No screenshot",
+              "Not stated",
+              "Hidden; coordinates unknown"
+            ]
+          ]
+        },
+        "subsections": [
+          {
+            "heading": "Items Named on the Roblox Game Page",
+            "paragraphs": [
+              "These five names are directly attributable to the developer's public game copy. They should be considered a starter source catalog rather than a complete 175-item list. A newer game update could change the target count or item details, which is why our page shows a review date."
+            ]
+          },
+          {
+            "heading": "Entries Confirmed by Game Screenshots",
+            "paragraphs": [
+              "No independent screenshot-backed Food Index entry names have been added as of this review. When a readable in-game capture becomes available, it can validate spelling, completion behavior, entry labels and additional names without guesswork."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "browse-sections",
+        "heading": "Browse by Verified Store Section",
+        "paragraphs": [
+          "The developer describes apples and other food, stockroom pallets and a very large Mega Watermelon, but does not publish a floor plan. Therefore the catalog filter categorizes items as ordinary named foods, large named target or hidden named target, not as confirmed aisles or floor coordinates.",
+          "An actual zone map requires a reproducible screenshot of the relevant area with the visible item label and a direction from a stable landmark. Without that evidence, a supposed 'warehouse corner' or numbered aisle would be speculation.",
+          "For practical collection planning, write down the section you have checked during your own visit. Separating a personally observed location from an official location claim makes the tracker useful without misleading the next player."
+        ],
+        "subsections": [
+          {
+            "heading": "Main Aisles and Food Shelves",
+            "paragraphs": [
+              "The official premise includes shelves stocked with edible objects. Check the item's displayed name before recording a precise location. A familiar product name in a fan guide alone is not sufficient evidence that it is a Food Index entry."
+            ]
+          },
+          {
+            "heading": "Stockroom and Large Food Targets",
+            "paragraphs": [
+              "The developer specifically mentions stockroom pallets and the Mega Watermelon. No source-backed coordinates or full breakdown of which Food Index slots they fill has been verified. Keep those locations as sections to inspect, not fixed item mappings."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "track-finds",
+        "heading": "Track Your Finds",
+        "paragraphs": [
+          "Use the live tracker above to search, filter and check off the five currently documented names. The number of checked items refers only to this website's five-name starter set, not to your Roblox account's official 175-food progress.",
+          "Your checkboxes stay in this browser's local storage where available, not in Roblox or a server account. Switching devices, using private mode or clearing browser data can remove the marks. The reset control asks for confirmation before erasing locally saved progress.",
+          "If you collect a food in-game and cannot find it in our catalog, that does not mean it is missing from the real game. This catalog reflects publicly named examples only; the in-game Food Index remains the authority for your collection."
+        ]
+      },
+      {
+        "id": "verify-new",
+        "heading": "How to Verify a New Food Entry",
+        "paragraphs": [
+          "Open the game and find the actual Food Index display. Capture a screenshot that visibly includes the item name and its registered status. If you can also observe the food at a particular location, take a second screenshot with enough background landmarks to reproduce the position.",
+          "Record the game date, entry spelling, any visible calorie figure and whether the screen shows a collected or uncollected state. Make sure the image comes from this exact Roblox game rather than a different grocery simulator.",
+          "The site does not currently host a submission form, collect your Roblox username or promise to verify screenshots automatically. New public entries should only be added after source review, with contradictory claims identified rather than silently averaged."
+        ],
+        "steps": [
+          {
+            "heading": "Confirm the correct experience",
+            "description": "Use Roblox Place ID 128201586883489 and open its own Food Index interface."
+          },
+          {
+            "heading": "Capture readable evidence",
+            "description": "Preserve exact item spelling and collected status; add an image of a location only when visibly identifiable."
+          },
+          {
+            "heading": "Record the source date",
+            "description": "Write down when the screenshot was taken and avoid asserting a precise calorie value if it is not shown."
+          }
+        ]
+      },
+      {
+        "id": "banana",
+        "heading": "Golden Banana: What Is Confirmed",
+        "paragraphs": [
+          "The developer explicitly asks whether you can find a hidden Golden Banana, so this named objective is verified. The public text does not tell us its coordinates, appearance conditions, respawn behavior or whether it counts as an ordinary Food Index slot.",
+          "For your own attempt, keep notes of the areas you have inspected and compare your observations with the current in-game information. Do not treat a guess on an unofficial webpage as a verified solution.",
+          "Once an actual gameplay capture makes the target's location reproducible, this page can add a substantiated explanation. Until then, the useful answer is to distinguish the existence of the Golden Banana from an unverified location."
+        ]
+      },
+      {
+        "id": "clear-vs-index",
+        "heading": "Food Index and Full-Clear Progress",
+        "paragraphs": [
+          "The official game also challenges players to empty the store, and it advertises an in-game cash reward for doing so. These features are not enough to prove that collecting 175 distinct names and emptying all food during a particular run are identical completion conditions.",
+          "Track your index progress using the game interface and your local five-name checklist as separate measurements. During a full-clear attempt, record the game's actual finish notification or leaderboard result rather than assuming that a personal checklist automatically proves a clear.",
+          "See the dedicated store-clear guide for section planning and an interactive preparation checklist. The upgrades guide explains what gym tracks exist and how to test their real effects. Both pages link back to this catalog when a player needs to verify what was actually eaten."
+        ],
+        "links": [
+          {
+            "slug": "fast-clear-guide",
+            "label": "How to beat the store",
+            "description": "Plan a section-by-section clear while keeping Food Index completion separate."
+          },
+          {
+            "slug": "upgrades",
+            "label": "Compare gym upgrades",
+            "description": "Check what can be confirmed before spending calories on a particular track."
+          }
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "Does this contain all 175 foods?",
+        "answer": "No. Roblox advertises 175 Food Index foods, but the public description only names a small set. This starter catalog currently lists five developer-named targets."
+      },
+      {
+        "question": "Where is the Golden Banana?",
+        "answer": "The developer calls it hidden but provides no precise coordinates in the source reviewed. A verified location requires gameplay evidence."
+      },
+      {
+        "question": "Does checking an item update my Roblox account?",
+        "answer": "No. The tracker saves personal browser marks only. It does not connect to Roblox or to the actual in-game Food Index."
+      },
+      {
+        "question": "Which food has 150,000 calories?",
+        "answer": "The developer specifically names the Mega Watermelon as a 150,000-calorie food item."
+      }
+    ],
+    "relatedSlugs": [
+      "upgrades",
+      "fast-clear-guide"
+    ],
+    "screenshots": [],
+    "lastReviewed": "2026-10-18"
+  },
+  {
+    "enabled": true,
+    "slug": "fast-clear-guide",
+    "pageType": "guide",
+    "navLabel": "Fast Clear",
+    "navVisible": true,
+    "title": "How to Beat Eat Everything In A Grocery Store | Guide",
+    "description": "Learn how to beat Eat Everything In A Grocery Store with a practical clear plan, gym upgrade checkpoints, food sections and solo or team tips.",
+    "hero": {
+      "eyebrow": "Clear planning tool · not a timed record or tested shortest route",
+      "heading": "How to Beat Eat Everything In A Grocery Store",
+      "lead": "To clear the store, keep eating, improve your gym stats and check remaining areas. Use a section-by-section planning checklist to avoid backtracking and coordinate separate responsibilities when playing with friends."
+    },
+    "sections": [
+      {
+        "id": "what-counts",
+        "heading": "What Counts as Beating the Store?",
+        "paragraphs": [
+          "The developer's official objective is to empty a grocery store advertised as containing 4,300,000 calories. The Roblox description also promises a $1,000,000 reward in in-game cash for emptying the store and splitting it with your team, plus a leaderboard for fastest store cleared.",
+          "That description does not publish a complete completion-state screenshot, timer format or exact rule for when a run is recorded. A verified clear should be based on what the current game actually displays, not on an invented percent threshold or a stopwatch time copied from another game.",
+          "Do not combine separate goals without evidence. Food Index completion is advertised as tasting 175 foods, while the store-clear challenge asks players to empty the store. Whether a particular full clear also requires the hidden Golden Banana or completes every index slot remains an open gameplay question."
+        ],
+        "subsections": [
+          {
+            "heading": "Store Clear vs Food Index Completion",
+            "paragraphs": [
+              "A run-clear notification, leaderboard entry and the Food Index counter should be logged separately until their relationship has been confirmed with a recorded playthrough. The developer describes them as different features, not an explicitly interchangeable score."
+            ]
+          },
+          {
+            "heading": "Solo and Party Modes",
+            "paragraphs": [
+              "The Roblox page invites players to form a party in the lobby and also supports solo challenges. The source listed a maximum server size of 12 at review, which is not evidence that every party can contain 12 members or that a larger party automatically receives a particular bonus."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "prepare",
+        "heading": "Prepare Before Your Run",
+        "paragraphs": [
+          "Choose whether you are playing solo or with a party, open the game's own Food Index or progress UI if available, and set up a way to record what you have observed. Even a simple written checklist avoids confusing a visited shelf with a completed shelf.",
+          "Before committing to a claimed optimal path, identify a repeatable starting landmark and observe which store areas are connected. Our sources do not include a validated map or real player navigation recording, so this page provides a route-planning method rather than instructions like 'turn left at aisle seven.'",
+          "Record your current gym levels and visible purchase costs. Because those amounts are not in the developer's public description, no guide can responsibly tell you to return to the gym at an exact calorie threshold without in-game evidence."
+        ],
+        "subsections": [
+          {
+            "heading": "Check Your Upgrades",
+            "paragraphs": [
+              "The game names Hold to Eat, Speed, Multi Eat, Calories and Reach. Examine the actual displayed upgrade effect and cost, then choose a track that addresses your run's measured bottleneck. See the separate upgrade page for a reproducible test method."
+            ]
+          },
+          {
+            "heading": "Choose a Repeatable Starting Point",
+            "paragraphs": [
+              "A starting point should be a location you can identify again after a failed run. Use the same landmark to compare two attempts; otherwise changes in starting distance can be mistaken for improvement in the route."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "walkthrough",
+        "heading": "Walkthrough: Clear the Store by Sections",
+        "paragraphs": [
+          "The following phases are a practical planning framework, not a claim that this precise movement path has been beaten on video. It respects the real mechanics that the developer confirms: eating food, earning calories, purchasing gym upgrades and clearing the store alone or with friends.",
+          "Plan connected areas as sections during your actual run. Work through nearby targets before repeatedly crossing previously checked space. When you change zones, use your checklist to mark completed inspections and any remaining objects that need a later pass.",
+          "One source-backed special target is the 150,000-calorie Mega Watermelon. Its specific location and how fast it can be consumed at a given upgrade level are not established by the source. The hidden Golden Banana is also developer-mentioned but lacks verified location instructions."
+        ],
+        "steps": [
+          {
+            "heading": "Phase 1: Get calories on reachable food",
+            "description": "Begin with items visible at your own confirmed start position. Log what you ate, how much progress the game showed and whether another nearby target remains."
+          },
+          {
+            "heading": "Phase 2: Inspect the gym",
+            "description": "When a measured input, movement or resource bottleneck appears, check actual gym levels and costs. Change only the upgrade that addresses that observed problem."
+          },
+          {
+            "heading": "Phase 3: Check connected store sections",
+            "description": "Use identifiable landmarks to mark your own visited shelves, storage areas and large targets; do not invent a published fixed map order."
+          },
+          {
+            "heading": "Phase 4: Verify the finish state",
+            "description": "Revisit unresolved sections once, then read the game's clear notification, in-game payout or leaderboard display before calling your attempt complete."
+          }
+        ],
+        "subsections": [
+          {
+            "heading": "Avoid a False 'Fastest Route' Claim",
+            "paragraphs": [
+              "There is no recorded benchmark time or annotated game map supplied in our evidence set. A one-size-fits-all shortest route, fixed first purchase or exact completion time would therefore be speculative."
+            ]
+          },
+          {
+            "heading": "Separate Progress From Certainty",
+            "paragraphs": [
+              "A ticked checklist means you inspected a zone, not necessarily that the server registered a clear. Check the game's current status display at the end."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "solo-party",
+        "heading": "Solo vs Team Clear Plans",
+        "paragraphs": [
+          "For a solo run, take responsibility for every section and keep an explicit list of unfinished targets. This makes it easier to identify whether you are repeating a long detour or simply have not inspected a certain area. Compare runs by noting the same starting position and the same meaning of 'finished.'",
+          "For a party, agree on who will investigate which section before you split. One player can handle visible shelf sections while another checks a separately identified storage area, but only if those zones actually appear in your observed map. The roles are coordination suggestions, not an official game mechanic or a confirmed speed bonus.",
+          "When teammates finish a section, communicate whether the area was merely visited or actually cleared. If anyone finds an unresolved object, note the location in player terms. Rejoining a section without that distinction often creates duplicate searching rather than useful progress."
+        ],
+        "subsections": [
+          {
+            "heading": "Solo Checklist",
+            "paragraphs": [
+              "Record start landmark, gym state, identified sections, unresolved targets, actual finish display and total time if you have a reliable clock. Use the browser checklist above as a personal planning aid."
+            ]
+          },
+          {
+            "heading": "Team Checklist",
+            "paragraphs": [
+              "Record party size, player-to-section assignments, which areas were confirmed clear, crossovers and how the game presents the final outcome. Never assume that server capacity equals a guaranteed party size."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "troubleshoot",
+        "heading": "Troubleshoot a Stalled Clear",
+        "paragraphs": [
+          "If progress appears to stop, first distinguish an unfinished edible target from an uncollected Food Index name. The official description supplies a 175-food collection goal and an empty-store goal, but it does not state that the two counters always move together.",
+          "If your team is spending most of its time repeating the same aisles, replace vague instructions such as 'check the back' with an unambiguous observed landmark and the name of the player who last inspected it. Then recheck only the unresolved parts of your plan.",
+          "If an upgrade seems to have no effect, capture the displayed level, test it on the same action and verify that the purchase was applied. Without those observations, it is premature to declare a bug or claim a particular stat is broken."
+        ],
+        "table": {
+          "caption": "Troubleshooting decisions that do not depend on fabricated game locations",
+          "columns": [
+            "Symptom",
+            "Check in your own session",
+            "Do not assume"
+          ],
+          "rows": [
+            [
+              "Unfinished run",
+              "Identify sections not yet inspected; look for an official completion cue",
+              "Food Index 175/175 is always the same as a clear"
+            ],
+            [
+              "Long travel time",
+              "Mark repeated trips between observed landmarks",
+              "A fan-made map is correct for every update"
+            ],
+            [
+              "Upgrade uncertainty",
+              "Compare level and repeat the same short test",
+              "Every gym track has a known fixed multiplier"
+            ],
+            [
+              "Team overlap",
+              "Assign a single reviewer to each observed section",
+              "The game enforces these roles automatically"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "time-trials",
+        "heading": "Time Trials and Verification Log",
+        "paragraphs": [
+          "A useful clear-time record contains the date, player count, start condition, visible upgrade levels, route annotations and actual completion evidence. If you use an external stopwatch, say so; do not portray that number as an official leaderboard result.",
+          "When recording a run, include screenshots at clear checkpoints rather than a bare final time. Record your route as observed landmarks, not guessed cardinal directions. Compare two runs only when starting conditions are reasonably similar.",
+          "No measured record has yet been published by this site. We will not list invented 'fastest possible' minutes, an unsupported average solo clear time or a fake leaderboard. The structured plan above is meant to help the next run yield a reproducible answer."
+        ],
+        "table": {
+          "caption": "Suggested run log fields for your own verified attempt",
+          "columns": [
+            "Field",
+            "What to record"
+          ],
+          "rows": [
+            [
+              "Players",
+              "Actual party count during the attempt"
+            ],
+            [
+              "Upgrades",
+              "Track names and visible levels at the start and at gym visits"
+            ],
+            [
+              "Sections",
+              "Map landmarks inspected and any unresolved food"
+            ],
+            [
+              "Time",
+              "In-game timer or external stopwatch, explicitly identified"
+            ],
+            [
+              "Completion",
+              "Screenshot or video of the game's result / leaderboard"
+            ],
+            [
+              "Version/date",
+              "Recorded session date and any visible update identifier"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "after-clear",
+        "heading": "After You Clear: Food Index and Leaderboards",
+        "paragraphs": [
+          "Read the game's result or leaderboard after the attempt. The developer explicitly advertises leaderboards for most calories eaten and fastest store cleared, but a website cannot verify your personal result remotely.",
+          "Check the Food Index separately. It has a stated target of 175 foods, and our index guide currently lists only five officially mentioned names. Use its browser checklist to record those names, not to replace your in-game completion status.",
+          "Finally, revisit your route plan. Which areas caused backtracking? Did gym stops solve the delay you measured? Which claims can you back up with a screenshot? Those specific notes improve future clear attempts more than copying an unverified 'speedrun route' from another page."
+        ],
+        "links": [
+          {
+            "slug": "food-index",
+            "label": "Browse the Food Index",
+            "description": "Cross-check developer-named items and keep an independent browser checklist."
+          },
+          {
+            "slug": "upgrades",
+            "label": "Gym upgrade comparison",
+            "description": "Test actual effects and costs before adopting any rigid purchase order."
+          }
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "How do you beat Eat Everything In A Grocery Store?",
+        "answer": "The developer's goal is to empty the store. Eat available food, spend calories on useful gym upgrades, check every observed section and confirm the game's actual clear result."
+      },
+      {
+        "question": "What is the fastest route?",
+        "answer": "A shortest route cannot be verified without a game map and timed run. This guide provides a checklist framework, not an invented record."
+      },
+      {
+        "question": "Can you clear the store with friends?",
+        "answer": "The official description supports parties formed in the lobby. Coordinate sections with your actual teammates and verify the final in-game result."
+      },
+      {
+        "question": "Is collecting 175 foods required for a full clear?",
+        "answer": "The official description lists the Food Index goal and the empty-store goal separately. Their exact overlap needs a documented in-game test."
+      }
+    ],
+    "relatedSlugs": [
+      "upgrades",
+      "food-index"
+    ],
+    "screenshots": [],
+    "lastReviewed": "2026-10-18"
+  }
+]
