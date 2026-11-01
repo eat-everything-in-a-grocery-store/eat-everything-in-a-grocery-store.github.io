@@ -9,18 +9,23 @@ export function NativeAdClient({ scriptUrl, containerId }: { scriptUrl: string; 
     const host = hostRef.current;
     if (!host) return;
 
-    const container = document.createElement("div");
-    container.id = containerId;
-    host.appendChild(container);
+    // Deferring DOM insertion by one frame makes React Strict Mode's effect
+    // setup/cleanup replay harmless: the cancelled first pass never requests ads.
+    const frame = window.requestAnimationFrame(() => {
+      const container = document.createElement("div");
+      container.id = containerId;
+      host.appendChild(container);
 
-    const script = document.createElement("script");
-    script.async = true;
-    script.src = scriptUrl;
-    script.dataset.cfasync = "false";
-    script.dataset.gameWikiNativeAd = containerId;
-    host.insertBefore(script, container);
+      const script = document.createElement("script");
+      script.async = true;
+      script.setAttribute("data-cfasync", "false");
+      script.src = scriptUrl;
+      script.dataset.gameWikiNativeAd = containerId;
+      host.appendChild(script);
+    });
 
     return () => {
+      window.cancelAnimationFrame(frame);
       host.replaceChildren();
     };
   }, [containerId, scriptUrl]);

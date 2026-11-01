@@ -4,6 +4,7 @@ import { Faq } from "@/components/site/faq";
 import { PageSections } from "@/components/site/page-sections";
 import { SiteFooter } from "@/components/site/site-footer";
 import { NativeAdSlot } from "@/components/integrations/native-ad-slot";
+import { ResponsiveBanner } from "@/components/integrations/responsive-banner";
 import { siteConfig } from "@/config/site";
 import { visibleCorePages, enabledLegalPages } from "@/content/registry";
 import { homeSchemas } from "@/lib/schema";
@@ -21,9 +22,13 @@ export function FixedTemplateHome({home}:{home:HomePageDefinition}) {
  </div><div className="cover">{/* eslint-disable-next-line @next/next/no-img-element */}<img className="w-full rounded" src={assetPath(siteConfig.assets.cover)} alt="Eat Everything In A Grocery Store guide cover illustration" /></div></div>
  <div className="quick">{nav.map(p=><div key={p.slug}><Link href={routePath(p.slug)}>{p.label} →</Link></div>)}<div><a href={siteConfig.game.officialUrl||"#"} rel="noopener noreferrer">Official Roblox game ↗</a></div></div>
  </div></section>
- <div className="wrap content-grid"><article className="article"><PageSections sections={home.sections}/><Faq items={home.faq}/></article>
+ <ResponsiveBanner />
+ <div className="wrap content-grid"><article className="article">
+ <PageSections sections={home.sections.slice(0,1)}/>
+ <NativeAdSlot />
+ <PageSections sections={home.sections.slice(1)}/>
+ <Faq items={home.faq}/></article>
  <aside className="side"><h2>At a glance</h2><dl><dt>Developer</dt><dd>{siteConfig.game.developer}</dd><dt>Game goal</dt><dd>Empty the store</dd><dt>Advertised calories</dt><dd>4,300,000</dd><dt>Food Index target</dt><dd>175</dd><dt>Gym tracks</dt><dd>5</dd><dt>Platform</dt><dd>Roblox</dd></dl>
  <h3 className="mt-6">Explore guides</h3><nav aria-label="Guide shortcuts"><ul>{nav.map(p=><li key={p.slug}><Link href={routePath(p.slug)}>{p.label} →</Link></li>)}</ul></nav></aside></div>
- <div className="site-container"><NativeAdSlot/></div>
  </main><SiteFooter coreLinks={nav} legalLinks={legal}/></>;
 }
